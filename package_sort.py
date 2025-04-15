@@ -79,4 +79,4 @@ def test_invalid_input_types():
         except TypeError:
             pass
         else:
-            raise AssertionError(f"ValueError not raised for {test=}")
+            raise AssertionError(f"TypeError not raised for {test=}")
